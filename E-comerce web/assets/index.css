@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* -------------------font--------------------------------------- */
+
+    --font: Inter;
+
+    /* ----------------colors------------------------------------- */
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --gray-color: #121212;
+    --icon-color: #233C6B;
+    --black2: #121212;
+    --soft-red: #F15353;
+    --white: #FFFFFF;
+
+}
+
+/* ----------------------------------------------------------------- */
+.padding {
+    padding: 0px 60px 0px 60px;
+}
+
+/* ------------------position classes-------------------- */
+
+.parent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+}
+
+/* ----------------display classes------------------ */
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.grid{
+    display: grid;
+}
+
+
+/* ------------------------heading-class------------------------------- */
+.heading-1 {
+    font-family: var(--font);
+    line-height: 65px;
+    letter-spacing: -4;
+    font-size: 65px;
+}
+
+.heading-2 {
+    font-family: var(--font);
+    line-height: 65px;
+    letter-spacing: -3;
+    font-size: 60px;
+}
+
+.display-1 {
+    font-family: var(--font);
+    line-height: 75px;
+    letter-spacing: -5;
+    font-size: 90px;
+}
+
+.display-3{
+    font-family: var(--font);
+    font-size: 40px;
+    letter-spacing: -3;
+    line-height: 40px;
+    font-weight: 400;
+
+}
+
+.regular{
+    font-family: var(--font);
+    line-height: 38px;
+    letter-spacing: -1;
+    font-size: 30px;
+}
+
+.body-1{
+    font-family: var(--font);
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -1;
+    font-weight: 500;
+}
+
+.description-1 {
+    font-size: 16px;
+    line-height: 1.5px;
+    color: var(--gray-color);
+    font-family: var(--font);
+}
+
+.description-2 {
+    font-family: var(--font);
+    line-height: 26px;
+    letter-spacing: -0.3px;
+    font-size: 18px;
+}
+
+.small-text {
+    font-size: 14px;
+    font-family: var(--font);
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* ----------------------------button classes-------------------------------------- */
+.btn {
+    height: 50px;
+    width: 280px;
+    padding: 13px 25px;
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid var(--primary-color);
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.single-txt{
+    font-family: var(--font);
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+/* ------------------------------CSS Start------------------------------------------------- */
+
+/* -------------------------------navbar-1------------------------------------------------ */
+
+.navbar-1 {
+    height: 64px;
+    width: 100%;
+    font-family: var(--font);
+    /* background-color: blue; */
+    padding: 24px 60px 24px 60px;
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid #0000000D;
+    flex-wrap: wrap;
+}
+
+.frame1 {
+    height: 16px;
+    width: 118px;
+    /* background-color: purple; */
+    justify-content: space-between;
+    font-size: 13px;
+    display: flex;
+}
+
+.frame2 {
+    height: 16px;
+    width: 385px;
+    /* background-color: aqua; */
+    font-size: 13px;
+    color: var(--gray-color);
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+
+}
+
+/* -------------------------------navbar-2--------------------------------------------- */
+
+.navbar-2 {
+    height: 80px;
+    width: 100%;
+    /* background-color: black; */
+    padding-top: 23px;
+    padding-left: 60px;
+}
+
+.logo {
+    height: 30px;
+    width: 161px;
+    /* background-color: blue; */
+    font-size: 24px;
+    font-family: var(--font);
+    font-weight: 800;
+}
+
+.search-and-menu {
+    height: 30px;
+    width: 709px;
+    /* background-color: aqua; */
+    margin-left: 40px;
+}
+
+.search {
+    height: 100%;
+    width: 312px;
+    /* background-color: blueviolet; */
+    border-radius: 100px;
+    border: 1px solid var(--gray-color);
+}
+
+.Search-here {
+    padding: 6px 0px 0px 10px;
+    font-family: var(--font);
+    font-size: 13px;
+}
+
+.search-icon {
+    height: 20px;
+    width: 20px;
+    color: var(--icon-color);
+    /* background-color: brown; */
+    margin: 4px 0px 5px 190px;
+    padding: 2px 2px 0px 0px;
+}
+
+.menu {
+    height: 100%;
+    width: 350px;
+    /* background-color: chartreuse; */
+    margin-left: 50px;
+}
+
+.menu-name {
+    height: 100%;
+    width: 100%;
+    /* background-color: red ; */
+    margin-left: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-family: var(--font);
+    font-weight: 600;
+    padding-top: 5px;
+
+}
+
+.navbar-2-icon-box {
+    height: 24px;
+    width: 117px;
+    /* background-color: cadetblue; */
+    margin: 2.5px 0px 0px 210px;
+    justify-content: space-between;
+}
+
+.navbar-2-icons {
+    height: 24px;
+    width: 24px;
+    /* background-color: chocolate; */
+    text-align: center;
+    padding-top: 5px;
+    color: var(--icon-color);
+}
+
+/* --------------------------------hero-section----------------------------------------- */
+
+.hero {
+    height: 1120px;
+    width: 100%;
+    /* background-color: aqua; */
+    padding-bottom: 32px;
+}
+
+.hero-content1 {
+    height: 730px;
+    width: 100%;
+    /* background-color: #F15353; */
+    padding: 0px 60px 0px 60px;
+    margin-bottom: 10px;
+}
+
+.card {
+    height: 730px;
+    width: 958px;
+    /* background-color: blue; */
+    border-radius: 50px;
+    background-image: url(./images/image\ 3.png);
+}
+
+.card2-3box {
+    height: 700px;
+    width: 352px;
+    /* background-color: #000000; */
+}
+
+.card2 {
+    height: 350px;
+    width: 352px;
+    /* background-color: brown; */
+    border-radius: 50px;
+    margin-bottom: 10px;
+    background-image: url(./images/image\ 4.png);
+    background-position: bottom;
+}
+
+.card3 {
+    height: 340px;
+    width: 352px;
+    /* background-color: brown; */
+    border-radius: 50px;
+    background-image: url(./images/image\ 5.png);
+    background-size: cover;
+    padding: 30px 0px 0px 30px;
+}
+
+.hero-content2 {
+    height: 380px;     
+    width: 100%;
+    /* background-color: cadetblue; */
+}
+
+.card4 {
+    height: 100%;
+    width: 411px;
+    /* background-color: orange; */
+}
+
+.img5-6box {
+    height: 100%;
+    width: 969px;
+    /* background-color: palevioletred; */
+}
+
+.card5,
+.card6 {
+    height: 380px;
+    width: 410px;
+    /* background-color: black; */
+    border-radius: 50px;
+
+}
+
+.img5 {
+    background-image: url(./images/image\ 7.png);
+    background-position: top;
+}
+
+.img6 {
+    background-image: url(./images/image\ 8.png);
+    background-position: right;
+}
+
+.txt {
+    height: 150px;
+    width: 311px;
+    margin-top: 30px;
+    /* background-color: purple; */
+}
+
+.txt2 {
+    height: 78px;
+    width: 311px;
+    /* background-color: #F15353; */
+}
+
+.btn2 {
+    height: 50px;
+    width: 280px;
+    /* background-color: brown; */
+    border-radius: 200px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.btn2 a,
+.btn a {
+    text-decoration: none;
+    color: var(--primary-color)
+}
+
+.title-box {
+    height: 375px;
+    width: 328px;
+    /* background-color: burlywood; */
+    margin: 60px 0px 0px 60px;
+}
+
+.title {
+    height: 225px;
+    width: 100%;
+    color: #FFFFFF;
+    /* background-color: #F15353; */
+}
+
+.prag {
+    height: 52px;
+    width: 100%;
+    color: #FFFFFF;
+    /* background-color: aqua; */
+    margin: 20px 0px 0px 5px;
+}
+
+.btn1{
+    margin: 28px 46px 0px 0px;
+    background-color: black;
+    color: white;
+    
+}
+.btn1 a{
+    color: white;
+}
+
+.card2-text{
+    height: 80px;
+    width: 138px;
+    /* background-color: yellow; */
+    margin: 30px 0px 0px 30px;
+}
+
+.card3-text{
+    height: 80px;
+    width: 138px;
+    /* background-color: #F15353; */
+    
+}
+
+.card5-txt-box{
+    height: 80px;
+    width: 350px;
+    /* background-color: brown;  */
+    margin: 270px 0px 30px 25px;
+}
+
+.cont{
+    height: 100%;
+    width: 177.5px;
+    color: #FFFFFF;
+    /* background-color: aqua; */
+}
+
+.arrow{
+    height: 30px;
+    width: 50px;
+    /* background-color: #F15353; */
+    text-align: center;
+    margin: 50px 0px 0px 127px;
+    color: #ffffff;
+    padding:5px 0px 5px 0px;
+}
+
+/* -----------------------------trending section------------------------------------------------- */
+
+.trending{
+    height: 1058px;
+    width: 100%;
+    /* background-color: blue; */
+    padding-top: 32px;
+}
+
+.t-navbar{
+    height: 50px;
+    width: 100%;
+    /* background-color: #F15353; */
+    margin-bottom: 24px;
+}
+.trend{
+    height: 100%;
+    width: 118px;
+    /* background-color: aqua; */
+    padding-top: 5px;
+}
+
+.t-frame{
+    height: 100%;
+    width: 500px;
+    /* background-color: chartreuse; */
+    margin-left: 548px;
+
+}
+
+.t-button{
+    height: 100%;
+    width: 93px;
+    /* background-color: blueviolet; */
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid var(--white);
+}
+.bord{
+    border-radius: 200px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+}
+
+/* -----------------------------shoes-card---------------------------- */
+
+.shoes-card{
+    height: 920px;
+    width: 100%;
+    /* background-color: burlywood;/ */
+}
+
+.shoes-1-set{
+    height: 450px;
+    width: 100%;
+    /* background-color: crimson; */
+    grid-template-columns: 322px 322px 560px;
+}
+
+.shoes-1,.shoes-2{
+    height: 450px;
+    /* background-color: red; */
+}
+
+.shoes-3{
+    height: 450px;
+    /* background-color: red; */
+}
+
+.shoe-1{
+    height: 374px;
+    width: 100%;
+    /* background-color: yellow; */
+    border-radius: 100px;
+    background-image: url(./images/image\ 11.png);
+}
