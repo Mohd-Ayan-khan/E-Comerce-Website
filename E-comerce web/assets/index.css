@@ -105,10 +105,11 @@
 
 .regular {
     font-family: var(--font);
-    line-height: 38px;
+    line-height: 40px;
     letter-spacing: -1px;
     font-size: 30px;
     font-weight: 400;
+    font-weight: 500;
 }
 
 .body-1 {
@@ -132,6 +133,16 @@
     letter-spacing: -0.3px;
     font-size: 18px;
     font-weight: 400;
+    opacity: 80%;
+}
+
+.description-3{
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--secondary-color);
+    opacity: 52%;
 }
 
 .small-text {
@@ -173,6 +184,22 @@
     font-weight: 600;
     line-height: 32px;
     letter-spacing: -0.5px;
+}
+
+.single-txt3{
+    font-family: var(--font);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+.single-txt4{
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: var(--secondary-color);
 }
 /* ------------------------------CSS Start------------------------------------------------- */
 
@@ -655,7 +682,7 @@
 .colors-box {
     height: 210px;
     width: 91%;
-    background-color: palevioletred;
+    /* background-color: palevioletred; */
     margin: auto;
     padding: 40px 0px 40px 0px;
     gap: 100px;
@@ -682,7 +709,7 @@
     height: 57px;
     width: fit-content;
     background-color: var(--secondary-color);
-    border: 2px solid var(--primary-color);
+    border: 1px solid var(--gray-color);
     border-radius: 50px;
      padding-top: 10px;
      padding-left: 10px;
@@ -727,14 +754,14 @@
 .banner-box{
     height: 636px;
     width: 100%;
-    background-color: #B54EF4;
+    /* background-color: #B54EF4; */
     padding: 40px 60px 40px 60px;
 }
 
 .banner{
     height: 556px;
     width: 1320px;
-    background-color: #B8E25F;
+    /* background-color: #B8E25F; */
     border-radius: 50px;
     background-image: url(./images/image\ 16.png);
     background-position: right;
@@ -770,3 +797,197 @@
     opacity: 50%;
     margin-left: 80px;
 }
+/* ---------------------------------------------------------------------------------------------- */
+/* ---------------------------------------service-section----------------------------------- */
+/* ---------------------------------------------------------------------------------------------- */
+
+.service{
+    height: 558px;
+    width: 100%;
+    /* background-color: #F4CF4E; */
+    padding: 40px 60px 40px 40px;
+}
+
+.servic-txt{
+    height: 133px;
+    width: 558px;
+    /* background-color: #5FABE2; */
+    margin-bottom: 56px;
+}
+
+.service-box{
+    height: 292px;
+    width: 1200px;
+    /* background-color: red; */
+    gap: 40px;
+}
+
+.services{
+    height: 292px;
+    width: 3500px;
+    /* background-color: #44936D; */
+}
+
+.service-content-box{
+    height: 148px;
+    width: 398px;
+    /* background-color: white; */
+    opacity: 80%;
+}
+
+.service-title{
+    height: 40px;
+    width: 398px;
+    /* background-color: darkorchid; */
+    margin-top: 24px;
+}
+/* ------------------------------------END---------------------------------------- */
+
+
+/* -----------------------------------blog-section------------------------------------- */
+.blog-div{
+    height: 600px;
+    width: 100%;
+    /* background-color: limegreen; */
+    padding: 40px 60px 120px 60px;
+}
+
+.blog-cont{
+    height: 462px;
+    width: 1200px;
+    /* background-color:darkred; */
+}
+.blog-head{
+    height: 65px;
+    width: 100%;
+    /* background-color: palevioletred; */
+    margin-bottom: 30px;
+}
+
+.shirt-row{
+    height: 367px;
+    width: 100%;
+    /* background-color: aqua; */
+    gap: 20px;
+}
+.shirt-col1{
+    height: 367px;
+    width: 654px;
+    /* background-color: #44936D; */
+    background-image: url(./images/image\ 18.png);
+    border-radius: 50px;
+    background-position: left;
+}
+.shirt-col2{
+    height: 367px;
+    width: 606px;
+    /* background-color:orange; */
+}
+.top{
+    height: 195px;
+    width: 100%;
+    /* background-color: darkblue; */
+    margin-bottom: 20px;
+}
+.mid{
+    height: 80px;
+    width: 100%;
+    /* background-color: #B54EF4; */
+}
+.blog-button{
+     height: 50px;
+     width: 170px;
+     /* background-color: #F44E8A; */
+     margin-top: 20px;
+     border-radius: 200px;
+     border: 1px solid var(--gray-color);
+     color: var(--gray-color);
+     text-align: center;
+     padding-top: 10px;
+}
+
+/* ----------------------------------------End------------------------------------------- */
+
+
+/* ----------------------------------------last-section---------------------------------------- */
+.end-div{
+    height: 341px;
+    width: 100%;
+    background-color: #5FABE2;
+}
+
+.last-box-1{
+    height: 341px;
+    width: 485px;
+    background-color: var(--primary-color);
+    padding: 60px;
+}
+.last-box-2{
+    height: 341px;
+    width: 955px;
+    background-color: var(--primary-color);
+    gap: 100px;
+}
+
+.last-1-content{
+    height: 100px;
+    width: 290px;
+    /* background-color: lawngreen; */
+}
+.last-heading{
+    height: 30px;
+    width: 290px;
+    /* background-color: #B54EF4; */
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
+
+.last-button-box{
+    height: 45px;
+    width: 365px;
+    /* background-color: purple; */
+    margin-top: 25px;
+}
+.email{
+    height: 45px;
+    width: 250px;
+    /* background-color: red; */
+    border-radius: 200px;
+    opacity: 52%;
+    border: 1px solid var(--secondary-color);
+    padding: 12px 55px 12px 24px;
+}
+.submit{
+    height: 45px;
+    width: 105px;
+    background-color: var(--secondary-color);
+    border-radius: 200px;
+}
+
+.popular-list{
+    height: 210px;
+    width: 80px;
+    /* background-color: red; */
+    margin: 60px 0px 105px 300px;
+}
+
+.popular-list p,.menu p,.other p{
+    margin: 0px 0px 16px 0px;
+}
+
+.menu{
+    height: 210px;
+    width: 100px;
+    /* background-color: rebeccapurple; */
+    margin: 60px 0px 105px 0px;
+}
+
+.other{
+    height: 210px;
+    width: 150px;
+    /* background-color: red; */
+    margin: 60px 0px 105px 0px;
+
+}
+
+/* ----------------------------------------last-section end---------------------------------------- */
