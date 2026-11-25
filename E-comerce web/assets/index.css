@@ -7,25 +7,22 @@
 :root {
 
     /* -------------------font--------------------------------------- */
-
     --font: Inter;
-
     /* ----------------colors------------------------------------- */
     --primary-color: #000000;
     --secondary-color: #ffffff;
     --gray-color: #121212;
     --icon-color: #233C6B;
-    --black2: #121212;
     --soft-red: #F15353;
-    --white: #FFFFFF;
     --black-and-white: #12121233;
-
 }
 
-/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
 .padding {
     padding: 0px 60px 0px 60px;
 }
+/* ----------------------------------------------------------------------- */
+
 
 /* ====================================================== */
 /* ------------------position classes-------------------- */
@@ -126,6 +123,10 @@
     font-weight: 500;
 }
 
+/* ======================================================================================*/
+/* -----------------------------------description-clasess------------------------- */
+/* ======================================================================================*/
+
 .description-1 {
     font-size: 16px;
     line-height: 1.5px;
@@ -225,7 +226,6 @@
     font-family: var(--font);
     /* background-color: blue; */
     padding: 24px 60px 24px 60px;
-    justify-content: space-between;
     border: 1px solid #0000000D;
     flex-wrap: wrap;
 }
@@ -234,7 +234,6 @@
     height: 16px;
     width: 118px;
     /* background-color: purple; */
-    justify-content: space-between;
     font-size: 13px;
 }
 
@@ -277,7 +276,6 @@
     flex: 1;
     min-width: 0;
     margin-left: 20px;
-    display: flex;
     align-items: center;
     gap: 20px;
 }
@@ -289,7 +287,6 @@
     min-width: 120px;
     border-radius: 100px;
     border: 1px solid var(--gray-color);
-    display: flex;
 }
 
 .Search-here {
@@ -310,7 +307,6 @@
 header .menu {
     height: 34px;
     width: 357px;
-    /* flex: 0 0 357px; */
     margin: 0;
     /* background-color: red; */
     align-items: center;
@@ -1261,6 +1257,7 @@ img {
         background-size: cover;    
     }
 
+
     .title-box {
         width: calc(100% - 40px);
         height: 322px;
@@ -1366,11 +1363,12 @@ img {
     }
 
     .img5-6box {
-        width: 100%;
+        /* width: 100%;
         height: auto;
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 10px;
+        gap: 10px; */
+        display: none;
     }
 
     .card5,
@@ -1687,6 +1685,7 @@ img {
         height: 220px;
         background-size: cover;
         border-radius: 18px;
+        background-position: center;
     }
 
     .shirt-col2 {
